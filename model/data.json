@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "Sapaan",
+      "patterns": ["Halo", "Hai", "Selamat pagi", "Halo Kajuu Ai"],
+      "responses": ["Halo! Selamat datang di Kajuu Ai. Bagaimana saya bisa membantu Anda hari ini?", "Hai! Apa yang bisa Kajuu Ai bantu?", "Selamat pagi! Bagaimana Kajuu Ai dapat membantu Anda?"]
+    },
+    {
+      "tag": "Pertanyaan Umum",
+      "patterns": ["Siapa Anda?", "Apa kabar?", "Apakah Kajuu Ai manusia?"],
+      "responses": ["Saya adalah Kajuu Ai, asisten virtual dari Kajuu. Bagaimana saya bisa membantu Anda?", "Kajuu Ai berada di sini untuk membantu. Apa yang ingin Anda tanyakan?", "Saya bukan manusia, saya adalah bagian dari layanan Kajuu Ai untuk membantu Anda."]
+    },
+    {
+      "tag": "Terima Kasih",
+      "patterns": ["Terima kasih", "Makasih", "Terimakasih banyak"],
+      "responses": ["Sama-sama! Jangan ragu untuk bertanya lagi jika Anda membutuhkan bantuan lebih lanjut.", "Tidak masalah! Kajuu Ai siap membantu kapan saja.", "Terima kasih! Apakah ada yang lain yang perlu Kajuu Ai bantu?"]
+    },
+    {
+      "tag": "Tidak Dikenali",
+      "patterns": ["Ini siapa?", "Saya bingung", "Apa yang kamu maksud?"],
+      "responses": ["Maaf, sepertinya ada kesalahan. Bisakah Anda mengulangi pertanyaannya atau memberikan informasi lebih lanjut?", "Saya tidak yakin saya mengerti. Bisa Anda jelaskan lebih rinci atau tanyakan sesuatu yang berbeda?", "Mohon maaf, sepertinya ada kebingungan. Apakah Anda bisa memberikan klarifikasi lebih lanjut?"]
+    },
+    {
+      "tag": "Kajuu",
+      "patterns": ["Apa tujuan web ini di buat", "Alasan pembuatan web Kajuu", "Latar belakang pembuatan web Kajuu"],
+      "responses": ["Pertumbuhan popularitas metode hydroponik dalam pertanian, yg menawarkan efisien pengguaan air dan ruang serta hasil yg cepat. Seiring dengan meningkatnya kesadaran akan makanan organik dan sehat, sayuran hydroponik menjadi pilihan menarik bagi konsumen yg mencari alternatif bersih dan bebas pestisida", "Kajuu lahir buat bikin belanja buah dan sayur jadi lebih asik dan simpel. Kita punya stok buah-sayur premium langsung dari petani, pake metode pertanian hydroponik biar hemat air dan tempat. Ada juga pilihan buah-sayur organik tanpa racun, buat yang lebih milih hidup sehat. Bisa belanja online di Kajuu, gak perlu repot keluar rumah. Selain itu, beli di sini juga artinya support petani lokal, loh. Jadi, Kajuu nggak cuma jadi tempat belanja, tapi juga gaya hidup sehat dan dukung pertanian berkelanjutan! 🌿🛒✨", "Kajuu dibuat agar kamu bisa belanja buah dan sayur dengan mudah, langsung dari petani lokal. Kami ingin memudahkan akses ke produk segar, menyediakan opsi organik, dan mendukung pertanian yang berkelanjutan. Jadi, belanja di Kajuu nggak cuma praktis, tapi juga berkontribusi untuk kebaikan bersama. 🌱🛒"]
+    },
+    {
+      "tag": "Informasi",
+      "patterns": ["Bahasa apa yg di gunakan untuk membuat web Kajuu?", "Teknologi apa yg dipakai untuk membuat Kajuu Store?", "Apakah web Kajuu juga tertanam AI?", "Apa teknologi yg digunakan untuk membangun web kajuu?"],
+      "responses": ["Kajuu dibangun dengan menggunakan beberapa bahasa, termasuk PHP untuk backend dengan framework Laravel, serta menggunakan Python untuk beberapa komponen tertentu", "Kajuu Store dibuat dengan teknologi modern, seperti Figma untuk desain, Laravel sebagai backend framework, dan Tailwind CSS untuk styling", "Ya, Kajuu mengintegrasikan beberapa elemen kecerdasan buatan (AI) untuk meningkatkan pengalaman pengguna dan memberikan layanan yang lebih personal", "Web Kajuu dibangun dengan menggunakan berbagai teknologi, termasuk Laravel sebagai backend framework, Tailwind CSS untuk styling, dan Python untuk beberapa aspek tertentu. Kami juga menggunakan MySQL sebagai basis data untuk menyimpan informasi secara efisien."]
+    }
+  ]
+}
